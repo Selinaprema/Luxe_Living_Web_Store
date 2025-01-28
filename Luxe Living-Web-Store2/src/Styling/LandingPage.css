@@ -1,0 +1,123 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../components/Page_Images/Hero_Image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+}
+
+.hero-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: aliceblue;
+  font-size: 4em;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.browse-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  border-width: 1px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.browse-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column; /* Stack h2 and p vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align content at the top instead of center */
+  text-align: center; /* Ensure the text is centered */
+  min-height: 400px; /* Full viewport height */
+  padding-top: 80px;
+  background-color: #d6c9b6;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2a2a2b;
+}
+
+p {
+  color: #2a2a2b;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-top: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.product-grid-container {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+.product-grid-container h2.product-grid-heading {
+  color: #f9f9f9;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product-grid-container {
+  padding: 50px;
+  background-color: #343a40;
+}
+
+.product-grid-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-grid-container .card {
+  margin-bottom: 20px;
+  background-color: #343a40;
+  border-width: 2px;
+  border-color: #d6c9b6;
+  padding: 0;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.card-text {
+  color: #8d8989;
+}

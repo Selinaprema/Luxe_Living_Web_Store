@@ -1,0 +1,84 @@
+.cart-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  flex: 1;
+  padding-left: 15px;
+}
+
+.cart-item button {
+  background-color: #201f1f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.total-price {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.shipment-method {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.shipment-method label {
+  font-weight: bold;
+}
+
+.shipment-method select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.help-button {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.help-button button {
+  background-color: #1f2123;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.modal-body li {
+  margin-bottom: 10px;
+}
+
+.modal-footer button {
+  background-color: #282626;
+  color: white;
+}
