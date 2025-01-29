@@ -1,0 +1,68 @@
+/* Custom navbar background color */
+.navbar-custom {
+  background-color: #343a40 !important;
+}
+
+/* Make the navbar content centered and space out items */
+.navbar-custom .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Styling for the Link components that act like nav links */
+.navbar-custom .navbar-nav .nav-link {
+  color: white !important; /* Make the nav links white */
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Add space between each link */
+.navbar-custom .navbar-nav .nav-link + .nav-link {
+  margin-left: 20px;
+}
+
+/* Hover effect for nav links */
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #f0ad4e !important; /* Change color on hover */
+}
+
+/* Styling for signed-in text */
+.navbar-custom .navbar-text {
+  color: white;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+/* Styling for the Log Out button */
+.ms-2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 40px;
+}
+
+/* Style the logout button */
+.navbar-custom .ms-2 {
+  padding: 5px 15px;
+  margin-right: 20px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* Log out button hover effect */
+.navbar-custom .ms-2:hover {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+/* Additional padding around text-white */
+.text-white {
+  padding-left: 60px;
+  padding-right: 60px;
+}
